@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # Installation
 Git clone this repository, and cd into directory for remaining commands
 
-git clone https://github.com/nitesh34/Angular-Menu-Navbar-Demo.git
+git clone https://github.com/niteshrupesh4/Angular-Menu-Navbar-Demo.git
 
 Add angular material
 
