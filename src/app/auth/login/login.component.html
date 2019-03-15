@@ -1,0 +1,64 @@
+<div class="auth-wrapper d-flex no-block justify-content-center align-items-center" style="background:url(assets/big/auth-bg.jpg) no-repeat center center;">
+  <div class="auth-box">
+    <div id="loginform">
+      <div class="logo"><span class="db"><img alt="logo" src="assets/images/logo-icon.png"></span>
+        <h5 class="font-medium m-b-20">Sign In to Admin</h5>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <form class="form-horizontal m-t-20" id="loginform">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend"><span class="input-group-text" id="basic-addon1"><mat-icon>supervised_user_circle</mat-icon></span></div><input
+                aria-describedby="basic-addon1" aria-label="Username" class="form-control form-control-lg" placeholder="Username"
+                type="text">
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend"><span class="input-group-text" id="basic-addon2"><mat-icon>vpn_key</mat-icon></span></div><input
+                aria-describedby="basic-addon1" aria-label="Password" class="form-control form-control-lg" placeholder="Password"
+                type="text">
+            </div>
+            <div class="form-group row">
+              <div class="col-md-12">
+                <div class="custom-control custom-checkbox"><input class="custom-control-input" id="customCheck1" type="checkbox"><label
+                    class="custom-control-label" for="customCheck1">Remember me</label><a class="text-dark float-right"
+                    href="javascript:void(0)" id="to-recover"><i class="fa fa-lock m-r-5"></i>
+                    Forgot pwd?</a></div>
+              </div>
+            </div>
+            <div class="form-group text-center">
+              <div class="col-xs-12 p-b-20"><button class="btn btn-block btn-lg btn-info" type="submit">Log In</button></div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 m-t-10 text-center">
+                <div class="social"><a class="btn btn-facebook" data-original-title="Login with Facebook" data-toggle="tooltip"
+                    href="javascript:void(0)" title=""><i aria-hidden="true" class="fab fa-facebook"></i></a><a class="btn btn-googleplus"
+                    data-original-title="Login with Google" data-toggle="tooltip" href="javascript:void(0)" title=""><i
+                      aria-hidden="true" class="fab fa-google-plus"></i></a></div>
+              </div>
+            </div>
+            <div class="form-group m-b-0 m-t-10">
+              <div class="col-sm-12 text-center"> Don't have an account? <a class="text-info m-l-5" [routerLink]="['/signup']"><b>Sign
+                    Up</b></a></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="recoverform">
+      <div class="logo"><span class="db"><img alt="logo" src="assets/images/logo-icon.png"></span>
+        <h5 class="font-medium m-b-20">Recover Password</h5><span>Enter your Email and instructions will be sent to
+          you!</span>
+      </div>
+      <div class="row m-t-20">
+        <form class="col-12">
+          <div class="form-group row">
+            <div class="col-12"><input class="form-control form-control-lg" placeholder="Username" required="" type="email"></div>
+          </div>
+          <div class="row m-t-20">
+            <div class="col-12"><button class="btn btn-block btn-lg btn-danger" name="action" type="submit">Reset</button></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
